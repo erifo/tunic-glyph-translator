@@ -30,7 +30,7 @@ class View:
             draw.circle(self.screen, self.COLOR, (seg.x2+1, seg.y2+1), 7)
         
         # Translated Text
-        myfont = font.Font('freesansbold.ttf', 32)
+        myfont = font.Font('freesansbold.ttf', 30)
         text = myfont.render(str(model.getWord()), True, self.COLOR, (50,50,50))
         textRect = text.get_rect()
         textRect.center = (self.WIDTH//2, self.HEIGHT-25)
