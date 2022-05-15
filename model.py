@@ -9,6 +9,7 @@ class Model:
         self.FLIP_MASK = 0b1_000000_000000
         self.CONSONANT_MASK = 0b0_111111_000000
         self.VOWEL_MASK = 0b0_000000_111111
+        self.NONE_MASK = 0b0_000000_000000
         self.state = 0b1_111111_111111
         self.glyphdict = Glyphdict()
         self.flipcircle = None
